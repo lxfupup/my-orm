@@ -1,4 +1,4 @@
-# 自定义ORM框架-仿写MyBatis框架
+# 自定义ORM框架-仿写MyBatis
 
 ## 原始JDBC开发存在的问题
 
