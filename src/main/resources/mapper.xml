@@ -1,0 +1,11 @@
+<mapper namespace="com.example.UserMapper">
+    <select id="selectOne" parameterType="com.example.User" resultType="com.example.User">
+        SELECT * FROM user
+        WHERE id = #{id}
+        AND username = #{username}
+    </select>
+
+    <select id="selectList" resultType="com.example.User">
+        SELECT * FROM user
+    </select>
+</mapper>
